@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #06171E;
+}
+
+h1 {
+    font-family: "Figtree";
+    color: white;
+
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.section {
+    padding: 4rem 0;
+}
+
+.layout {
+    max-width: var(--max-width-layout);
+    margin: 0 auto;
+    padding: 0 var(--padding);
+    width: 100%;
+}
+
+
+.gallery-section {
+    min-height: 40vh;
+}
+
+.imagesClass {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* 1440px */
+}
+
+.imagesClass img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* create an extra css file for footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 16px;
+    width: 48px;
+}
