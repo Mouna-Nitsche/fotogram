@@ -3,10 +3,17 @@ body {
     background-color: #06171E;
 }
 
+main {
+    padding-left: 90px;
+    padding-right: 90px;
+    height: calc(100vh - 38px);
+}
+
 h1 {
     font-family: "Figtree";
     color: white;
-
+    font-size: 16px;
+    margin-bottom: 22px;
 }
 
 .galerie {
@@ -19,13 +26,6 @@ h1 {
 
 .section {
     padding: 4rem 0;
-}
-
-.layout {
-    max-width: var(--max-width-layout);
-    margin: 0 auto;
-    padding: 0 var(--padding);
-    width: 100%;
 }
 
 
@@ -42,20 +42,34 @@ h1 {
 }
 
 .imagesClass img {
-    height: 40px;
-    width: 40px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
 
 /* create an extra css file for footer */
 footer {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    row-gap: 8px;
+
+    background-color: #09212A;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 38px;
 }
 
-footer img {
-    height: 16px;
-    width: 48px;
+.company-logo {
+    height: 12px;
+    width: 42px;
+}
+
+.company-name {
+    height: 6px;
+    width: 60px;
 }

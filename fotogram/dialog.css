@@ -5,8 +5,8 @@
 
 .myDialog {
     background-color: #06171E;
-    width: 250px;
-    height: 220px;
+    max-width: 690px;
+    max-height: 680px;
     border-radius: 8px;
     margin: auto;
 }
@@ -18,19 +18,19 @@
     padding: 8px 8px;
 }
 
-.dialog-header-class p {
-    font-size: 8px;
+.dialog-paragraphs-class {
+    font-size: 24px;
     color: white;
 }
 
 .dialog-header-class img {
-    width: 16px;
-    height: 16px;
+    width: 34px;
+    height: 34px;
 }
 
 .dialog-main-style img {
-    width: 210px;
-    height: 150px;
+    width: 560px;
+    height: 370px;
     margin: auto;
     display: block;
 }
@@ -39,11 +39,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 24px;
 
 }
 
 .dialog-footer-class img {
-    width: 24px;
-    height: 24px;
+    width: 60px;
+    height: 60px;
+}
+
+.dialog-footer-class p {
+    color: white;
 }

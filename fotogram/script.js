@@ -41,8 +41,10 @@ function openDialog(i) {
     dialogRef.showModal();
 
     const imageTitleRef = document.getElementById("image-title");
-    const showPreviousImage = document.getElementById("image-title");
+    const currentNumberRef = document.getElementById("current-index-number");
     imageTitleRef.innerHTML = `${myImages[i].alt}`;
+    currentNumberRef.innerHTML = currentIndex + 1;
+    // currentNumberRef.innerText = "/12";
 }
 
 function showNextImage() {
@@ -68,13 +70,3 @@ function closeDialog() {
     const dialogRef = document.getElementById("myDialog");
     dialogRef.close();
 }
-
-//   openDialog();
-
-// function zooomPhoto(i){
-//     let element = myimages[PhotoNumber];
-//     const dialogRef = document.getElementById("myDialog");
-//     dialogRef.showModal();
-//     const divRef = document.getElementById("allImages");
-//     divRef.innerHTML = `<img src="./img/${element}" alt="${element}">`;
-// }

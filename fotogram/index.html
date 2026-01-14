@@ -35,7 +35,7 @@
         </main>
         <dialog id="myDialog" class="myDialog">
             <div id="dialog-header" class="dialog-header-class">
-                <p id="image-title"></p>
+                <p id="image-title" class="dialog-paragraphs-class"></p>
                 <img
                     src="./img/close_icon.png"
                     alt=""
@@ -44,9 +44,7 @@
                     onclick="closeDialog()"
                 />
             </div>
-            <div id="dialog-main" class="dialog-main-style">
-                <p>The main content for you..</p>
-            </div>
+            <div id="dialog-main" class="dialog-main-style"></div>
             <div id="dialog-footer" class="dialog-footer-class">
                 <img
                     src="./img/arrow-left-button.png"
@@ -54,7 +52,10 @@
                     class="previousImageButton"
                     onclick="showPreviousImage()"
                 />
-                <p id="current-index-number"></p>
+                <p
+                    id="current-index-number"
+                    class="dialog-paragraphs-class"
+                ></p>
                 <img
                     src="./img/arrow-right-button.png"
                     id="nextImage"
@@ -65,7 +66,12 @@
         </dialog>
 
         <footer>
-            <img src="./img/Logo.png" class="" />
+            <img src="./img/Logo.png" class="company-logo" />
+            <img
+                src="./img/developer_akademie_gmbh.png"
+                alt="This is an Image of the Company Name of the Developer Akademie GmbH"
+                class="company-name"
+            />
         </footer>
     </body>
     <script src="script.js"></script>
