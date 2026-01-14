@@ -6,13 +6,14 @@ body {
 main {
     padding-left: 90px;
     padding-right: 90px;
-    height: calc(100vh - 38px);
+    padding-top: 90px;
+    height: calc(100vh - 90px - 90px);
 }
 
 h1 {
     font-family: "Figtree";
     color: white;
-    font-size: 16px;
+    font-size: 56px;
     margin-bottom: 22px;
 }
 
@@ -50,7 +51,6 @@ h1 {
 
 /* create an extra css file for footer */
 footer {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,15 +61,16 @@ footer {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-    height: 38px;
+    height: 90px;
+    border-radius: 30px;
 }
 
 .company-logo {
-    height: 12px;
-    width: 42px;
+    height: 32px;
+    width: 140px;
 }
 
 .company-name {
-    height: 6px;
-    width: 60px;
+    height: 8px;
+    width: 68px;
 }

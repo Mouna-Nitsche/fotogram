@@ -1,6 +1,7 @@
 .myDialog-style {
     display: flex;
     justify-content: center;
+    padding: 44px;
 }
 
 .myDialog {
@@ -27,6 +28,11 @@
     width: 34px;
     height: 34px;
 }
+
+.dialog-main-style {
+    padding-bottom: 12px;
+}
+
 
 .dialog-main-style img {
     width: 560px;

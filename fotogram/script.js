@@ -43,8 +43,7 @@ function openDialog(i) {
     const imageTitleRef = document.getElementById("image-title");
     const currentNumberRef = document.getElementById("current-index-number");
     imageTitleRef.innerHTML = `${myImages[i].alt}`;
-    currentNumberRef.innerHTML = currentIndex + 1;
-    // currentNumberRef.innerText = "/12";
+    currentNumberRef.innerHTML = `${currentIndex + 1} /${myImages.length}`;
 }
 
 function showNextImage() {
