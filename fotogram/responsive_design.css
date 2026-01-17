@@ -1,0 +1,36 @@
+@media (max-width: 620px) {
+    .myDialog {
+        width: 340px;
+        height: 305px;
+    }
+
+    .dialog-main-style img {
+        width: 310px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 320px) {
+    .myDialog {
+        width: 170px;
+        height: 280px;
+    }
+
+    .dialog-paragraphs-class {
+        font-size: 18px;
+    }
+
+    .dialog-main-style img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .dialog-footer-class img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .dialog-footer-class p {
+        font-size: medium;
+    }
+}

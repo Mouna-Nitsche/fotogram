@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="header.css" />
         <link rel="stylesheet" href="genereal.css" />
         <link rel="stylesheet" href="dialog.css" />
+        <link rel="stylesheet" href="responsive_design.css" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,8 +16,9 @@
             href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
             rel="stylesheet"
         />
+        <link rel="icon" href="./img/favicon_fotogram.png" sizes="48x48" />
     </head>
-    <body>
+    <body onload="generateImages()">
         <header>
             <img src="./img/Capa_1.png" />
         </header>
@@ -27,7 +29,7 @@
                     <h1>Your personal photo album</h1>
                     <div
                         id="images-container"
-                        class="imagesClass"
+                        class="imagesClass pointer"
                         aria-haspopup="dialog"
                     ></div>
                 </div>
@@ -40,7 +42,7 @@
                     src="./img/close_icon.png"
                     alt=""
                     id="closing-button"
-                    class="closeDialogimg"
+                    class="closeDialogimg pointer"
                     onclick="closeDialog()"
                 />
             </div>
@@ -49,7 +51,7 @@
                 <img
                     src="./img/arrow-left-button.png"
                     id="previousImage"
-                    class="previousImageButton"
+                    class="previousImageButton pointer"
                     onclick="showPreviousImage()"
                 />
                 <p
@@ -59,7 +61,7 @@
                 <img
                     src="./img/arrow-right-button.png"
                     id="nextImage"
-                    class="nextButton"
+                    class="nextButton pointer"
                     onclick="showNextImage()"
                 />
             </div>

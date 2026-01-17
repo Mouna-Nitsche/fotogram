@@ -31,7 +31,6 @@ function generateImages() {
         imagesContainer.innerHTML += `<img src="${myImages[i].src}" alt="${myImages[i].alt}" onclick="openDialog(${i})">`;
     }
 }
-generateImages();
 
 function openDialog(i) {
     currentIndex = i;
