@@ -1,7 +1,6 @@
 @media (max-width: 620px) {
     .myDialog {
         width: 340px;
-        height: 305px;
     }
 
     .dialog-main-style img {
@@ -10,7 +9,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
     .myDialog {
         width: 170px;
         height: 280px;
@@ -32,5 +31,11 @@
 
     .dialog-footer-class p {
         font-size: medium;
+    }
+}
+
+@media (max-width: 355px) {
+    header img {
+        margin-left: 45px;
     }
 }
