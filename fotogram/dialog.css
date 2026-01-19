@@ -8,15 +8,16 @@
     background-color: #06171E;
     max-width: 690px;
     max-height: 680px;
-    border-radius: 8px;
+    border-radius: 16px;
     margin: auto;
+    padding: 46px;
 }
 
 .dialog-header-class {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 8px;
+    padding-bottom: 20px;
 }
 
 .dialog-paragraphs-class {
@@ -30,7 +31,7 @@
 }
 
 .dialog-main-style {
-    padding-bottom: 12px;
+    padding-bottom: 20px;
 }
 
 
@@ -45,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 48px;
 
 }
 

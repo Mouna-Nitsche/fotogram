@@ -1,4 +1,4 @@
-@media (max-width: 620px) {
+@media (max-width: 695px) {
     .myDialog {
         width: 340px;
     }
@@ -9,9 +9,9 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
     .myDialog {
-        width: 170px;
+        width: 300px;
         height: 280px;
     }
 
@@ -20,8 +20,8 @@
     }
 
     .dialog-main-style img {
-        width: 160px;
-        height: 160px;
+        width: 220px;
+        height: 170px;
     }
 
     .dialog-footer-class img {
@@ -34,8 +34,22 @@
     }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 440px) {
+    .myDialog {
+        width: 170px;
+        height: 280px;
+    }
+
+    .dialog-main-style img {
+        width: 170px;
+        height: 160px;
+    }
+
     header img {
         margin-left: 45px;
+    }
+
+    .dialog-footer-class {
+        gap: 32px;
     }
 }
